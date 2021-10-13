@@ -25,9 +25,9 @@ The application can be packaged using:
 
 * The shortest list between "crawl" and "run" is [crawl, craw, raw, ran, run]
 
-* There is no list of adjacent words between mouse and elephant\
+* There is no list of adjacent words between mouse and elephant
 * The program returns necessarily the shortest list - it uses Breath First Search algorithm
-* Dictionary can be organized and unweighted graph 
+* Dictionary can be organized as unweighted graph 
 * I tested it using JUnit framework 
 * The Big-O Complexity is O(M^3xN) 
 
