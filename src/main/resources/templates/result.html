@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head> 
+    <title>Dictionary walk</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+ <table>
+    <thead>
+        <tr>
+            <th> Word path</th>
+        </tr>
+    </thead>
+    <tbody>
+	<tr th:if="${words.empty}">
+            <td colspan="2"> Path is empty </td>
+        </tr>
+        <tr th:each="wordList : ${words}">
+            <td><span th:text="${wordList}"> Title </span></td>
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>
+
+
